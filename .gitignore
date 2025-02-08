@@ -1,2 +1,44 @@
-venv
-.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+logs/
+*.log
+
+# Data files
+*.csv
+*.json
+*.xml
+*.sqlite3
+*.db
+
+# Machine learning models and large files
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+
+# Environment and dependency files
+*.env
+requirements.txt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
