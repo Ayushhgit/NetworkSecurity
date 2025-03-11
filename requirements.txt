@@ -1,7 +1,8 @@
 python-dotenv
 pandas
-numpy
 pymongo
+numpy
+pymongo[srv]==3.6
 certifi
 
 #-e . #this e refers to the setup.py file in the current directory
