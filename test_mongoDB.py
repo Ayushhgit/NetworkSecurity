@@ -1,7 +1,7 @@
 from pymongo.mongo_client import MongoClient
 
 # Correct MongoDB connection string
-uri = "mongodb+srv://ayush:admin123@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority"
+uri = "mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority"
 
 try:
     # Connect to MongoDB
