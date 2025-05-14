@@ -21,3 +21,18 @@ class DataTransformationArtifact:
     transformed_object_file_path: str
     transformed_train_file_path: str
     transformed_test_file_path: str
+
+@dataclass
+class ClassificationMetricArtifact:
+    """Classification Metric Artifact Entity"""
+    f1_score: float
+    precision_score: float
+    recall_score: float
+
+@dataclass
+class ModelTrainerArtifact:
+    """Model Trainer Artifact Entity"""
+    trained_model_file_path:str
+    train_metric_artifact: ClassificationMetricArtifact
+    test_metric_artifact: ClassificationMetricArtifact
+
