@@ -7,4 +7,7 @@ certifi
 dill
 pyaml
 mlflow
+dagshub
+fastapi
+uvicorn
 #-e . #this e refers to the setup.py file in the current directory
