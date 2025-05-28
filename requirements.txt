@@ -1,13 +1,16 @@
 python-dotenv
 pandas
-pymongo
 numpy
-pymongo[srv]==3.6
+pymongo
 certifi
-dill
-pyaml
+pymongo[srv]
+scikit-learn
 mlflow
+pyaml
 dagshub
 fastapi
 uvicorn
-#-e . #this e refers to the setup.py file in the current directory
+python-multipart
+
+
+##-e .
